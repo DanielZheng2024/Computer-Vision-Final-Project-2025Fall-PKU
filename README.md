@@ -5,6 +5,8 @@ Provides the supplementary details for the Project on 'Creating Visual Cognitive
 
 **Be sure to go into the 'Supplementary Details' folder, as all run-instructions are clearly listed in Readme.md under that folder.
 
+## We used github-copilot to manage the repository, mainly to delete unnecessary files
+
 ## For Fun
 
 - **We implemented a interactive demo webpage.**You can run it by first downloading all the stuff, then run Generate_Website.py
