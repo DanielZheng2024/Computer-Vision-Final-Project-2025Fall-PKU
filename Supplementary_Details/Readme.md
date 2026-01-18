@@ -77,6 +77,8 @@ The installation commands are embedded within each notebook.
 4. **Result**: The notebook displays two views alongside prime image during the training process.
 5. **Visualization**: Run `generate_gif.py` to generate timelapses(you need to save notebook results previously). Remember to save the picture into a folder and name the folder `images`.You can tweak `start_duration` and `end_duration` to create acceleration effects.
 
+**Note**: You need to replace `stable_diffusion.py` in your cloned repo with `stable_diffusion.py` in this directory for image prompts.
+
 ## 6. CLIP Score Evaluation
 
 **Script**: `clip_score.py`
