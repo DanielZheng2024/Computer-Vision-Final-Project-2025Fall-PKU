@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 
-# 设置页面配置
 st.set_page_config(layout="wide", page_title="Visual Cognitive Illusions Demo")
 
 st.title("Visual Cognitive Illusions Project Demo")
@@ -63,7 +62,6 @@ def show_demo_section(title, image_path, gif_path, key_suffix):
     
     st.divider()
 
-# --- Defines paths based on your workspace structure ---
 # Base paths
 base_pic_path = "Supplementary_Details/pictures"
 base_demo_path = "Supplementary_Details/demos"
@@ -97,11 +95,3 @@ show_demo_section(
     os.path.join(base_demo_path, "anamorphic_1.gif"),
     "anamorphic"
 )
-
-# Note about Anamorphic 2 (Optional, uncomment if you want to include it)
-# show_demo_section(
-#     "Anamorphic Illusion 2",
-#     os.path.join(base_pic_path, "Anamorphic_2.png"),
-#     os.path.join(base_demo_path, "anamorphic_2.gif"),
-#     "anamorphic_2"
-# )
